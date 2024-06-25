@@ -14,11 +14,13 @@ public class TecnicoAdministrativo extends Funcionario{
 		this.adicionalNoturno = adicionalNoturno;
 	}
 	
+	@Override
 	public double calcularSalario() {
 		
 		return this.salarioBase + this.adicionalNoturno;
 	}
 	
+	@Override
 	public void exibirRelatorio() {
 			
 		super.exibirRelatorio();

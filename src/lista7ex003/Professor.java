@@ -29,11 +29,13 @@ public class Professor extends Funcionario{
 		this.disciplina = new Disciplina(codigo, nomeDisciplina, ementa, cargaHoraria);
 	}
 	
+	@Override
 	public double calcularSalario() {
 		
 		return this.salarioBase + this.gratificacaoPorTitulacao;
 	}
 	
+	@Override
 	public void exibirRelatorio() {
 		
 		super.exibirRelatorio();

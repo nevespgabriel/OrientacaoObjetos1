@@ -5,9 +5,9 @@ public class ClienteTeste {
 	public static void main(String[] args) {
 		
 		Cliente cliente = new Cliente("Nebes", "389138");
-		cliente.adicionarEntrada(1, "Sushi humano", "1 kg de cérebro, 2 toneladas de pele de pessoas inconvenientes", 150);
-		cliente.adicionarPratoPrincipal(2, "Marcos Fidelis", "CHEGAAAAAAA", 20);
-		cliente.adicionarSobremesa(3, "Eu", "Lenda", 3000);
+		cliente.adicionarEntrada(1, "Maçã", "Suculenta, doce", 10);
+		cliente.adicionarPratoPrincipal(2, "Barco de sushi", "Vários sushis, mais de 100", 670);
+		cliente.adicionarSobremesa(3, "Chocolate", "Meio amargo", 20);
 		cliente.fecharConta();
 	}
 }

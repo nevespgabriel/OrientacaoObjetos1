@@ -55,6 +55,7 @@ public class Filme {
 			
 			this.diaDevolucao = diaDevolucao;
 			this.exibirRelatorio();
+			this.clienteAlocou = null;
 		} else {
 			
 			System.out.println("O filme não foi alocado. Impossível devolver.");
